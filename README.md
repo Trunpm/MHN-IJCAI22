@@ -4,7 +4,10 @@ This is the PyTorch Implementation of our paper "[Multilevel Hierarchical Networ
 ![alt text](docs/fig2.png 'overview of the network')
 
 # Platform and dependencies
-Ubuntu 14.04  Python 3.7  CUDA10.1  CuDNN7.5+  
+Ubuntu 14.04  
+Python 3.7  
+CUDA10.1  
+CuDNN7.5+  
 pytorch>=1.7.0
 
 # Data Preparation
@@ -27,7 +30,16 @@ pytorch>=1.7.0
   `TGIF/TemporalFeatures/tumblr_nd24xaX8d11qkb1azo1_250/Features.pkl` (shape is 2^level-1,2048)  
   `TGIF/TemporalFeatures/tumblr_no00ddSlG31t34v14o1_250/Features.pkl`  
   `...`  
-  In our paper, level is set to 3 by default.
+  In our paper, number of levels is set to 3 by default.
   
-# train and test
-The trained models for the action task can be download in [here](https://drive.google.com/file/d/1xf0O5lwEjPqT1xoQL1tvq0q_h6ETImiF/view?usp=sharing).  
+# Train and test
+The trained models for the action task can be downloaded from [here](https://drive.google.com/file/d/1xf0O5lwEjPqT1xoQL1tvq0q_h6ETImiF/view?usp=sharing).
+
+# Reference
+```
+@article{peng2022MHN,
+     title={Multilevel Hierarchical Network with Multiscale Sampling for Video Question Answering},
+     author={Peng Min, Wang Chongyang, Gao Yuan, Shi Yu, Zhou Xiang-Dong},
+     journal={Proceedings of the 31st International Joint Conference on Artificial Intelligence (IJCAI)},
+     year={2022}}
+```
