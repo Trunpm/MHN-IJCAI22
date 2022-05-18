@@ -21,11 +21,11 @@ pytorch>=1.7.0
   TGIF/word/action/TGIF_action_vocab.json
   2. To extract appearance and motion feature, use the pretrained models [here](https://drive.google.com/open?id=1xbYbZ7rpyjftI_KCk6YuL-XrfQDz7Yd4).  
   for the action task, we have features at the path /Vfeatures:  
-  `TGIF/SpatialFeatures/action/video0/Features.pkl` (shape is 2^level-1,16,2048)  
-  `TGIF/SpatialFeatures/action/video1/Features.pkl`  
+  `TGIF/SpatialFeatures/tumblr_nd24xaX8d11qkb1azo1_250/Features.pkl` (shape is 2^level-1,16,2048)  
+  `TGIF/SpatialFeatures/tumblr_no00ddSlG31t34v14o1_250/Features.pkl`  
   `...`  
-  `TGIF/TemporalFeatures/action/video0/Features.pkl` (shape is 2^level-1,2048)  
-  `TGIF/TemporalFeatures/action/video1/Features.pkl`  
+  `TGIF/TemporalFeatures/tumblr_nd24xaX8d11qkb1azo1_250/Features.pkl` (shape is 2^level-1,2048)  
+  `TGIF/TemporalFeatures/tumblr_no00ddSlG31t34v14o1_250/Features.pkl`  
   `...`  
   In our paper, level is set to 3 by default.
   
