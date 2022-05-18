@@ -1,6 +1,4 @@
 # MHN
- (IJCAI22)
-
 This is the PyTorch Implementation of our paper "[Multilevel Hierarchical Network with Multiscale Sampling for Video Question Answering](https://arxiv.org/abs/2205.04061)". (accepted by IJCAI’22)
 
 ![alt text](docs/fig2.png 'overview of the network')
