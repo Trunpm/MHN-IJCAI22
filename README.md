@@ -30,4 +30,4 @@ pytorch>=1.7.0
   In our paper, level is set to 3 by default.
   
 # train and test
-run `python train.py` in your terminal.  The trained models for the action task can be download in [here](https://drive.google.com/file/d/1xf0O5lwEjPqT1xoQL1tvq0q_h6ETImiF/view?usp=sharing).  
+The trained models for the action task can be download in [here](https://drive.google.com/file/d/1xf0O5lwEjPqT1xoQL1tvq0q_h6ETImiF/view?usp=sharing).  
